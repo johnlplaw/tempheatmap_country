@@ -19,7 +19,7 @@ library(leaflet.extras)
 shinyUI(
   fluidPage(
   
-    headerPanel("Temperature HeatMap for cities in Malaysia"),
+    headerPanel("Temperature HeatMap for cities"),
     sidebarPanel(
       selectInput("selectCtry", label = "Select country", 
                   choices = list("Malaysia" = 'MY', "Indonesia" = 'ID', "Thailand" = 'TH'), 
